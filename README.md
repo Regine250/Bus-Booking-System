@@ -1,17 +1,10 @@
-# bus_booking
+# Bus Booking
 
-A new Flutter project.
+Books seats on the Kigali → Huye bus, with a waitlist where priority passengers go first and Undo for every change. My data is now saved on the phone with `shared_preferences`, so the bookings and the waitlist are not lost when the app closes, and it shows today's weather in Huye from the Open-Meteo API.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Before closing](screenshots/before.png)
+![After running again](screenshots/after.png)
+![Live data from an API](screenshots/api.png)
+![No internet](screenshots/no-internet.png)
